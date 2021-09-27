@@ -1,0 +1,33 @@
+.locations {
+  background-image: url("../images/us-map.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+  margin-bottom: 40px;
+  padding: 40px;
+  &__find {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    float: right;
+    background-color: white;
+    width: 25%;
+    padding: 15px;
+    &__top {
+      text-transform: uppercase;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      h1 {
+        font-size: 30px;
+      }
+      p {
+      }
+    }
+    &__bottom {
+      width: 100%;
+      height: 50px;
+      font-size: 20px;
+      padding-left: 15px;
+    }
+  }
+}

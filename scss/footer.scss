@@ -1,0 +1,54 @@
+.foot {
+  background-color: $arbys-brown;
+  border-top: 6px solid $arbys-red;
+  // height: 200px;
+  &__top {
+    display: flex;
+    border-bottom: 0.25px solid white;
+    &__section {
+      padding: 20px 30px;
+      width: 25%;
+      display: flex;
+      flex-direction: column;
+      border-right: 0.25px solid white;
+      color: white;
+      &__header {
+        font-size: 25px;
+        text-transform: uppercase;
+      }
+      &__list {
+        list-style: none;
+        &__item {
+          margin-bottom: 10px;
+          font-size: 18px;
+        }
+        &__item::before {
+          content: "\2022";
+          color: $arbys-red;
+          display: inline-block;
+          width: 1em;
+        }
+      }
+      &__social {
+        display: flex;
+        justify-content: space-between;
+        width: 50%;
+        img {
+          width: 30%;
+          border-radius: 12px;
+          background-color: white;
+        }
+        img:last-child {
+          border-radius: 14px;
+        }
+      }
+    }
+    &__section:last-child {
+      border-right: none;
+    }
+  }
+  &__bottom {
+    background-color: $arbys-brown;
+    color: white;
+  }
+}

@@ -1,0 +1,81 @@
+.menu-div {
+  &__heading {
+    margin: 30px 0 30px 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 50px;
+  }
+  .menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    width: 75%;
+    &__item {
+      width: 30%;
+      background-color: white;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 30px;
+      &__image {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        height: 150px;
+        width: 50%;
+      }
+      &__image--meal {
+        background-image: url("../images/menu/meal.png");
+      }
+      &__image--limited {
+        background-image: url("../images/menu/limited.png");
+      }
+      &__image--market {
+        background-image: url("../images/menu/market.png");
+      }
+      &__image--chicken {
+        background-image: url("../images/menu/chicken.png");
+      }
+      &__image--beef {
+        background-image: url("../images/menu/roast-beef.png");
+      }
+      &__image--slider {
+        background-image: url("../images/menu/slider.png");
+      }
+      &__image--sides {
+        background-image: url("../images/menu/sides.png");
+      }
+      &__image--desserts {
+        background-image: url("../images/menu/desserts.png");
+      }
+      &__image--beverages {
+        background-image: url("../images/menu/beverages.png");
+      }
+      &__image--kids {
+        background-image: url("../images/menu/kids.png");
+      }
+      &__text {
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 40px;
+        &__heading {
+          font-size: 30px;
+          font-weight: bold;
+        }
+        &__count {
+          opacity: 0.7;
+        }
+        &__see {
+          font-weight: bold;
+          font-size: 20px;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}

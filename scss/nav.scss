@@ -1,0 +1,29 @@
+.navbar {
+  background-color: $arbys-brown;
+  display: flex;
+  height: 85px;
+  align-items: center;
+  &__left {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 50px;
+    &__logo {
+      background-image: url("https://images.ctfassets.net/o19mhvm9a2cm/66jS9A0OMglRmNhtA52PSH/de6520ae1cf12b4a46b8d8a64d9af0cf/logo.svg?w=1500");
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: 60px;
+      height: 60px;
+    }
+    a {
+      color: white;
+      font-size: 20px;
+      text-decoration: none;
+      font-weight: bolder;
+    }
+  }
+  &__right {
+  }
+}

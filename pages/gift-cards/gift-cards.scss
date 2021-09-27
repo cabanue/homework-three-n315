@@ -1,0 +1,65 @@
+.gift {
+  &__top {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 60%;
+    &__left {
+      background-image: url("../images/gift-card.png");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 500px;
+      width: 600px;
+    }
+    &__right {
+      width: 40%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      &__text {
+        width: 50%;
+        text-align: center;
+        font-size: 45px;
+      }
+      &__buts {
+        width: 70%;
+        display: flex;
+        justify-content: space-between;
+        &__but {
+          color: white;
+          background-color: $arbys-red;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 50px;
+          font-size: 20px;
+          font-weight: bold;
+          width: 45%;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+  &__bottom {
+    width: 70%;
+    margin: 0 auto;
+
+    &__divs {
+      &__heading {
+        margin-bottom: 30px;
+      }
+      &__single {
+        width: 60%;
+        padding: 20px 0px 20px 0px;
+        h1 {
+          margin-bottom: 5px;
+        }
+        p {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
